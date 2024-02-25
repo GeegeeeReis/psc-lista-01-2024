@@ -5,5 +5,6 @@ programa
 		cadeia nome
 		escreva("Digite seu nome: ")
 		leia(nome)
+		escreva(nome)
 	}
 }
