@@ -1,0 +1,26 @@
+programa
+{
+    funcao inicio()
+        {
+            real Alemanha, Portugal, Italia, total
+            inteiro pessoasPortugal, pessoasAlemanha, pessoasItalia
+                escreva("Digite o preco da viagem para a Alemanha: ")
+                leia(Alemanha)
+                escreva("Digite quantas pessoas irão para a Alemanha: ")
+                leia(pessoasAlemanha)
+
+                escreva("Digite o preco da viagem para a Portugal: ")
+                leia(Portugal)
+                escreva("Digite quantas pessoas irão para a Portugal: ")
+                leia(pessoasPortugal)
+
+                escreva("Digite o preco da viagem para a Itália: ")
+                leia(Italia)
+                escreva("Digite quantas pessoas irão para a Itália: ")
+                leia(pessoasItalia)
+
+                    total= (Alemanha*pessoasAlemanha)+(Portugal*pessoasPortugal)+(Italia*pessoasItalia)
+
+                escreva("O valor total das passsagens é: ", total)
+        }
+}

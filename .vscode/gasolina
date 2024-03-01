@@ -1,0 +1,16 @@
+programa
+{
+    funcao inicio()
+        {
+            inteiro precolitro, litrovendido, total
+
+                escreva("Digite o preco do litro de gasolina: ")
+                leia(precolitro)
+                escreva("Digite o litro vendido de gasolina: ")
+                leia(litrovendido)
+
+                total= precolitro*litrovendido
+                
+                escreva("O valor a ser pago é: R$", total)
+        }
+}
